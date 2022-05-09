@@ -1,0 +1,198 @@
+body{
+    background-color: #f0ffbc;
+}
+
+div{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:flex;
+    align-items: flex-start;
+}
+
+.leaf{
+    z-index: 0;
+    background:  #308446;
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 700px;
+    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+}
+
+.stem{
+    z-index: 0;
+    background: #308446 ;
+    height:550px;
+    position: absolute;
+    width: 20px;
+    top: 70px;
+    left: 690px;
+   }
+
+.petal-one{
+    z-index: 1;
+    background: #360b36 ;
+    top: 60px;
+    left: 500px;
+    
+}
+
+.petal-two{
+    z-index: 1;
+    background: #360b36 ;
+    top: 60px;
+    left: 700px;
+}
+
+.petal-three{
+    z-index: 1;
+    background: #360b36  ;
+    top: 250px;
+    left: 500px;
+    
+}
+
+.petal-four{
+    z-index: 1;
+    background: #360b36 ;
+    top: 250px;
+    left: 700px;
+}
+
+.petal-five{
+    z-index: 2;
+    background:  #440e43 ;
+    top: 150px;
+    left: 400px;
+    
+}
+
+.petal-six{
+    z-index: 2;
+    background:  #440e43;
+    top: 150px;
+    left: 800px;
+}
+
+.petal-seven{
+    z-index: 3;
+    background:  #6a1569;
+    top: 80px;
+    left: 420px;
+}
+
+.petal-eight{
+    z-index: 3;
+    background:  #6a1569;
+    top: 80px;
+    left: 780px;
+}
+
+.petal-nine{
+    z-index: 3;
+    background:  #6a1569;
+    top: 220px;
+    left: 420px;
+}
+
+.petal-ten{
+    z-index: 3;
+    background:  #6a1569;
+    top: 220px;
+    left: 780px;
+}
+
+.petal-eleven{
+    z-index: 4;
+    background: #551154 ;
+    top: 100px;
+    left: 500px;
+}
+
+.petal-twelve{
+    z-index: 4;
+    background: #551154 ;
+    top: 100px;
+    left: 700px;
+}
+
+.petal-thirteen{
+    z-index: 4;
+    background: #551154 ;
+    top: 220px;
+    left: 500px;
+}
+
+.petal-fourteen{
+    z-index: 4;
+    background: #551154 ;
+    top: 220px;
+    left: 700px;
+}
+
+.petal-fifteen{
+    z-index: 5;
+    background: #851a83;
+    top: 20px;
+    left: 600px;
+}
+
+.petal-sixteen{
+    z-index: 5;
+    background: #851a83;
+    top: 300px;
+    left: 600px;
+}
+
+.petal-seventeen{
+    z-index: 6;
+    background: #a621a4;
+    top: 160px;
+    left: 480px;
+}
+
+.petal-eighteen{
+    z-index: 6;
+    background: #a621a4;
+    top: 160px;
+    left: 720px;
+    
+}
+
+.petal-nineteen{
+    z-index: 7;
+    background:  #bf3abd;
+    width: 120px;
+    height: 120px;
+    top: 200px;
+    left: 580px;
+}
+
+.petal-twenty{
+    z-index: 7;
+    background:  #bf3abd ;
+    width: 120px;
+    height: 120px;
+    top: 200px;
+    left: 700px;
+}
+
+.petal-twentyone{
+    z-index: 8;
+    background:  #ff40ff ;
+    width: 120px;
+    height: 120px;
+    top: 195px;
+    left: 645px;
+}
+
+.petal-twentytwo{
+    z-index: 9;
+    background:  #322619;
+    width: 110px;
+    height: 110px;
+    top: 200px;
+    left: 650px;
+}
