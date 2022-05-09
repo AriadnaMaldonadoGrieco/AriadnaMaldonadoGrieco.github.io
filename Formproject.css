@@ -1,0 +1,42 @@
+body {
+}
+
+h1{
+text-align: center;
+font-size: 300%;
+font-family: Garamond, monospace;
+background-color: #f6f6f6;
+}
+
+section.a {
+  position: relative;
+  margin:auto;
+
+}
+
+table#spaces{
+    border-collapse:separate;
+    border-spacing:40 20px;
+    background-color: #f6f6f6;
+    position: absolute;
+    left: 50;
+}
+
+td{
+text-align: right;
+  font-size: 120%;
+  font-family:"Trebuchet MS", sans-serif;
+}
+.prompt{
+  text-align: justify;
+  font-size: 75%;
+  font-family:"Lucida Handwriting";
+  color: #9d9e9d
+}
+
+section.b {
+  position: absolute;
+  right: 0;
+  width: 400px;
+  height: 700px;
+}
