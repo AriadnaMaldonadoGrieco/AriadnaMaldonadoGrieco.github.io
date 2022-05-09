@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Este es un formulario para obtener fotos de gatos o perros" />
+    <title> Form for pictures of puppies or kitties</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel= "stylesheet" type= "text/css" href="Formproject.css">
+   <script type= "text/javascript" src= "formproject.js"></script>
+  </head>
+  <body background= "https://www.seekpng.com/png/detail/42-426149_about-us-dog-paw-background-png.png">
+    <header><h1> Sign up with this form to get a picture of puppies or kitties! </h1>
+      <!-- Hello there! I'm Ari and this is my form for the final project of this course.
+      I tried to make it fun and different while complying with the tasks.
+      Its meant to emulate a form to register to receive pictures of cats and or dogs.
+      Hopefully you like the sillyness of it, Enjoy! --></header>
+    <main>
+     <section class= "a" >
+      <form>
+       <table id="spaces" cellspacing="0" border="0">
+        <tr>
+         <td class= "label"> First Name:</td>
+         <td class= "input"><input name= "firstname" id= "firstname" onblur="validateFirstName();" required></td>
+         <td class= "prompt" id="prompt"><span id="firstprompt">E.g: John</span></td>
+        </tr>
+        <tr>
+         <td class= "label">Last Name:</td>
+         <td class= "input"><input type= "text" name= "lastname" id= "lastname" onblur="validateLastName();"></td>
+         <td class= "prompt" id="prompt"><span id="lastprompt">E.g: Doe</span></td>
+        </tr>
+        <tr>
+         <td class= "label">Email:</td>
+         <td class= "input"><input type= "text" name= "useremail" id= "useremail" onblur="validateEmail();" required></td>
+         <td class= "prompt" id="prompt"><span id="emailprompt">E.g: name_123@host.com</span></td>
+        </tr>
+        <tr>
+         <td class= "label">Password:</td>
+         <td class= "input"><input type= "password" name= "password" id= "password" required></td>
+        </tr>
+        <tr>
+         <td class= "label">Confirm password:</td>
+         <td class= "input"><input type= "password" name= "cpassword" id= "cpassword" required></td>
+        </tr>
+        <tr>
+         <td class= "label">Want to receive <br>pictures to your email?</td>
+         <td><input type= "radio" name= "Pics" value= "Yes"> Yes
+          <input type= "radio" name= "Pics" value= "No"> No </td>
+        </tr>
+        <tr>
+         <td class= "label">Get your first pic right now!:</td>
+         <td><input type= "radio" name= "Pets" value= "Only cats" onclick="catPic();"> Cats
+          <input type= "radio" name= "Pets" value= "Only dogs" onclick="dogPic();"> Dogs
+          <input type= "radio" name= "Pets" value= "Both cats and dogs" onclick="dogandcatPic();">Both!
+         </td>
+        </tr>
+      </form>
+   </section>
+   <section class= "b">
+     <img id="catpic" src="catpic" style="display:none;"  alt="picture of a cute cat"/>
+     <img id="dogpic" src="dogpic" style="display:none;" alt="picture of a cute dog"/>
+     <img id="dogcatpic" src="dogcatpic" style="display:none;" alt="picture of a cute cat and dog"/>
+   </section>
+  </main>
+ </body>
+ 
+ </html>
+ 
